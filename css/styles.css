@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+
+  body{
+    
+    font-size: 50px;
+    text-align: center;
+    margin-top: 325px;
+    color: white;
+    background-color: black;
+    font-family: "Roboto", sans-serif;
+    
+  }
+
+  
+
+  a{
+    display: inline-flex;
+    font-family: "Caveat", cursive;
+    font-weight: bold;
+    font-size: 50px;
+    text-decoration: none;
+    color: red;
+  }
