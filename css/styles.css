@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    
   }
 
   body{
@@ -14,9 +15,52 @@
     background-color: black;
     font-family: "Roboto", sans-serif;
     
+    
+    
   }
 
-  
+  .page1{
+    display: inline-block;
+    display: flex;
+    margin-left: 375px;
+  }
+
+  .page2{
+    display: inline-block;
+    display: flex;
+    margin-left: 120px;
+  }
+
+  .page3{
+    display: inline-block;
+    display: flex;
+    margin-left: 700px;
+  }
+
+  .page4{
+    display: inline-block;
+    display: flex;
+    margin-left: 365px;
+  }
+
+  .page5{
+    display: inline-block;
+    display: flex;
+    margin-left: 365px;
+  }
+
+  .page6{
+    display: inline-block;
+    display: flex;
+    margin-left: 120px;
+  }
+
+  .page8{
+    display: inline-block;
+    display: flex;
+    margin-left: 1000px;
+    margin-top: 750px;
+  }
 
   a{
     display: inline-flex;
@@ -26,3 +70,19 @@
     text-decoration: none;
     color: red;
   }
+
+  p{
+   padding-left: 20px;
+   padding-right: 20px;
+  }
+
+  p:hover{
+    color: rgb(39, 38, 38);
+    
+  }
+
+  a:hover{
+    box-shadow: 10px 5px 50px 15px rgba(246, 241, 213);
+    transform: scale(2);
+
+  } 
