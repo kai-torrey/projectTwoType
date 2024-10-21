@@ -19,6 +19,10 @@
     
   }
 
+  section{
+    display: inline flex;
+  }
+
   .index{
     display: inline;
     display: flex;
@@ -30,14 +34,14 @@
     display: inline;
     display: flex;
     position: relative;
-    left:20%;
+    left:30%;
   }
 
   .page2{
     display: inline;
     display: flex;
     position: relative;
-    left:5%;
+    left:15%;
   }
 
   .page3{
@@ -51,21 +55,21 @@
     display: inline;
     display: flex;
     position: relative;
-    left:20%;
+    left:25%;
   }
 
   .page5{
     display: inline;
     display: flex;
     position: relative;
-    left:20%;
+    left:25%;
   }
 
   .page6{
     display: inline;
     display: flex;
     position: relative;
-    left:4%;
+    left:15%;
   }
 
   .page8{
@@ -81,8 +85,14 @@
     display: inline;
     display: flex;
     position: relative;
-    left: 40%;
-    bottom: 110px;
+  
+    bottom: 50%;
+    top: 100px;
+  }
+
+  #credit{
+    font-size: 25px;
+    margin-top: 50px;
   }
 
   /* .p9div{
@@ -99,6 +109,7 @@
     color: red;
     margin-left: 8px;
     margin-right: 15px;
+    animation: fadeIn 10s;
   }
 
   p{
@@ -106,6 +117,7 @@
     transition-duration: 1s;
     transition-timing-function: ease-in-out;
     transition-delay: .2s;
+    animation: fadeIn 5s;
   }
 
   p:hover{
@@ -116,4 +128,160 @@
 
   a:hover{
     transform: scale(2);
+    transition-duration: 3s;
   } 
+
+  #down{
+    position: relative;
+    -webkit-animation: moving 5s infinite;
+    animation: moving 5s infinite;
+    animation-delay: 2s;
+    left:3.5%;
+  }
+
+  
+
+  .floating {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    left: 1%;
+    animation: float 3s ease-in-out infinite;
+}
+
+  .float2{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    left: 1%;
+    animation: float 3s ease-in-out infinite;
+  }
+
+
+
+.glow {
+  padding-left: 2px;
+  color: #fff;
+  top: 50%;
+  left:42%;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+.glow3{
+  padding-left: 2px;
+  color: #fff;
+  top: 50%;
+ margin-left: 250px;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+
+.flip{
+  width:100%;
+  position:relatvie;
+  left: 43%;
+ 
+}
+
+div{
+  text-align:center;
+  perspective: 800px;
+  position:absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+span{
+  display:inline-block;
+  margin-left:3px;
+  transform-origin: 50% 70%;
+}
+
+span:nth-child(1){
+  animation: flipper 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) both, fadeIn 1s both;
+}
+
+span:nth-child(2){
+  animation: flipper 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) .2s both, fadeIn 1s both;
+}
+
+span:nth-child(3){
+  animation: flipper 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) .4s both, fadeIn 1s both;
+}
+
+span:nth-child(4){
+  animation: flipper 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) .6s both, fadeIn 1s both;
+}
+
+
+@keyframes flipper{
+  from{transform: rotateX(90deg);}
+  to{transform: rotateX(0deg);}
+}
+
+@keyframes fadeIn{
+  from{opacity:0};
+  to{opacity:1};
+}
+
+
+
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  @keyframes moving{
+    from {transform: translateY(4px);}
+    to {transform: translateY(200px);}
+  }
+
+  @keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+@keyframes rotate {
+  0% {
+    color: black;
+    margin-bottom: -40px;
+  }
+  30% {
+    letter-spacing: 25px;
+    margin-bottom: -40px;
+  }
+  85% {
+    letter-spacing: 8px;
+    margin-bottom: -40px;
+  }
+  100% {
+    margin-bottom: 20px;
+  }
+}
+  
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+  
