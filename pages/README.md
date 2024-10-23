@@ -2,6 +2,11 @@
 # title
 project two, words in motion, kai torrey
 
+# resource text
+Authors: John Lennon, Paul McCartney
+Band: The Beatles
+Year Releaed: 1967
+
 # project overview
 The goal of this project was to capture what community means to me through a written piece of art and then through the use of HTML and CSS visually bring meanings to the words and phrases we feel hold the most meaning to me. For me, I feel that a song that encapsulates what community means to me the best is the 1967 Beatles song All You Need is Love. I chose this song as I feel the lyrics really speak well to both what community means to me, and what a community can do to those who are a part of it. The majority of the verses that comprise the song discuss how there's nothing you can do that can't be done and your aspirations are all possible no matter how far out or hard they may seem, and the bridge ties in these ideas by stating they're all possible through the love and support all around you. I feel this can be seen and interpreted when looking at the lyrics through the lens of tying them in with what community means to us, as the love you feel and receive from those in your community can help you accomplish great things no matter how hard they may seem to be. In this project, I wanted to place the most emphasis on the words nothin’, easy, can’t, and love. All of these words me showcase the meaning of the song best and how through the support and love from your community, all things no matter how hard or daunting they may seem are achievable. 
 

@@ -33,49 +33,49 @@
   .page1{
     display: inline;
     display: flex;
-    position: relative;
-    left:30%;
+    position: absolute;
+    left:20%;
   }
 
   .page2{
     display: inline;
     display: flex;
-    position: relative;
-    left:15%;
+    position: absolute;
+    left:7%;
   }
 
   .page3{
     display: inline;
     display: flex;
-    position: relative;
+    position: absolute;
     left:47%;
   }
 
   .page4{
     display: inline;
     display: flex;
-    position: relative;
+    position: absolute;
     left:25%;
   }
 
   .page5{
     display: inline;
     display: flex;
-    position: relative;
+    position: absolute;
     left:25%;
   }
 
   .page6{
     display: inline;
     display: flex;
-    position: relative;
-    left:15%;
+    position: absolute;
+    left:5%;
   }
 
   .page8{
     display: inline;
     display: flex;
-    position: relative;
+    position: absolute;
     left: 65%;
     top: 355px;
   
@@ -165,17 +165,18 @@
   padding-left: 2px;
   color: #fff;
   top: 50%;
-  left:42%;
+  left:112%;
   -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
   animation: glow 1s ease-in-out infinite alternate;
 }
 
 .glow3{
-  padding-left: 2px;
+  
   color: #fff;
   top: 50%;
- margin-left: 250px;
+  display: inline-flex;
+  left: 106%;
   -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
   animation: glow 1s ease-in-out infinite alternate;
@@ -184,8 +185,8 @@
 
 .flip{
   width:100%;
-  position:relatvie;
-  left: 43%;
+  position:absolute;
+  left: 111%;
  
 }
 
